@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
 	<head>
-
+		<title>Working with Media</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		
+		<h1>Working with Media</h1>
+		<!-- image with alt text that links to its source -->
+		<h2>Images</h2>
+		<a href="https://commons.wikimedia.org/wiki/File:Delacroix_lion_hunt_1855.JPG" target="_blank">
+			<img src="Delacroix_lion_hunt_1855.JPG" alt="lion" width="300" height="300">
+		</a>
+		<p>Note: Click on image to go to source</p>
+		<!-- image positioned next to text -->
+		<div class="text-with-image">
+			<p>Text with image aligned to its right</p>
+			<img src="Carolina_Inn_With_Hippo.jpg" alt="stuffed hippo on bed" width="350" height="350" id="float">
+		</div>
+		<!-- customized bullets using images -->
+		<h2>Bullet points using images</h2>
+		<ul>
+			<li>hi</li>
+			<li>no</li>
+			<li>bye</li>
+		</ul>
+		<!-- animated image using gif -->
+		<h2>GIF</h2>
+		<img src="pfp_moving.gif" alt="my profile picture" width="100" height="100">
+		<!-- audio sound effect with alt text -->
+		<h2>ASMR sound effect (headphone warning)</h2>
+		<audio controls>
+			<source src="tickle.mp3">
+			Your browser doesn't support the audio element.
+		</audio>
+		<!-- video player with alt text -->
+		<h2>Video (insane edit warning)</h2>
+		<video controls width="200" height="400">
+			<source src="video.mp4">
+			Your browser doesn't support the video element.
+		</video>
 	</body>
 </html>

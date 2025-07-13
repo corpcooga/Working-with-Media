@@ -1,0 +1,37 @@
+h2 {
+	background: #f0f0f0; /* light gray background */
+	padding: 10px; /* space around text */
+	border-bottom: 2px solid #ccc; /* bottom border */
+}
+
+p {
+	margin: 20px;
+}
+
+img {
+	padding: 10px; /* space around image */
+	border: 2px solid #ccc; /* border around image */
+	border-radius: 20%;
+}
+
+video {
+	border: 2px solid #ccc; /* border around video */
+	border-radius: 10px; /* rounded corners */
+}
+
+ul {
+    list-style: none; /* removes default list style */
+    padding-left: 0;
+}
+
+ul li {
+    background-image: url("check.png");
+    background-repeat: no-repeat;
+    background-position: center left; /* vertically center */
+    background-size: 24px 24px; /* change size as needed */
+    padding-left: 32px; /* space for the image */
+}
+
+.text-with-image {
+  display: flex; /* aligns image to the right of text */
+}
