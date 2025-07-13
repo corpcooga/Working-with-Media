@@ -1,7 +1,13 @@
+body {
+	font-family: monospace;
+	color: #54166f; /* text color */
+	background-color: rgb(255, 255, 164);
+}
+
 h2 {
-	background: #f0f0f0; /* light gray background */
+	background: #ffff60; /* light gray background */
 	padding: 10px; /* space around text */
-	border-bottom: 2px solid #ccc; /* bottom border */
+	border-bottom: 2px solid #849000; /* bottom border */
 }
 
 p {
@@ -10,12 +16,12 @@ p {
 
 img {
 	padding: 10px; /* space around image */
-	border: 2px solid #ccc; /* border around image */
+	border: 2px solid #849000; /* border around image */
 	border-radius: 20%;
 }
 
 video {
-	border: 2px solid #ccc; /* border around video */
+	border: 2px solid #849000; /* border around video */
 	border-radius: 10px; /* rounded corners */
 }
 
